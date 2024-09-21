@@ -9,7 +9,7 @@ sudo apt install curl
 
 Ejecución
 Asegúrate de otorgar permisos de ejecución a los scripts, en bash:
-chmod +x nombre_del_script.sh
+chmod +x hashCrawler.sh
 
 Ejecuta el script, en bash:
 ./hashCrawler.sh
