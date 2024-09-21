@@ -9,10 +9,12 @@ sudo apt install curl
 
 Ejecución
 Asegúrate de otorgar permisos de ejecución a los scripts, en bash:
+chmod +x md5HashGenerator.sh
 chmod +x hashCrawler.sh
 
 Ejecuta el script, en bash:
-./hashCrawler.sh
+./md5HashGenerator min max resultado.txt
+./hashCrawler.sh archivo_md5Hashes.txt
 
 Contribuciones
 Este repositorio está orientado a ayudar a otros a resolver el desafío. Cualquier sugerencia o mejora es bienvenida.
